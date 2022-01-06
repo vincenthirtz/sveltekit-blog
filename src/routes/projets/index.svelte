@@ -68,9 +68,7 @@
 	<div class="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
 		<p>
 			Hey, I'm Vincent Hirtz. I'm a Software Developer, writer and creator of&nbsp;
-			<ExternalLink href="https://github.com/navneetsharmaui/sveltkit-starter"
-				>Sveltekit Starter Project</ExternalLink
-			>
+			<ExternalLink href="https://github.com/navneetsharmaui/sveltkit-starter">Sveltekit</ExternalLink>
 			&nbsp;and&nbsp;
 			<ExternalLink href="https://github.com/navneetsharmaui/sveltekit-blog">Vincent Hirtz Project</ExternalLink>
 		</p>
