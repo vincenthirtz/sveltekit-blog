@@ -70,7 +70,7 @@
 			Hey, I'm Vincent Hirtz. I'm a Software Developer, writer and creator of&nbsp;
 			<ExternalLink href="https://github.com/navneetsharmaui/sveltkit-starter">Sveltekit</ExternalLink>
 			&nbsp;and&nbsp;
-			<ExternalLink href="https://github.com/navneetsharmaui/sveltekit-blog">Vincent Hirtz Project</ExternalLink>
+			<ExternalLink href="https://github.com/navneetsharmaui/sveltekit-blog">Vincent Hirtz</ExternalLink>
 		</p>
 	</div>
 	{#if projects.length > 0}
