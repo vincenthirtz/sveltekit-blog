@@ -3,41 +3,36 @@ layout: snippet
 title: 'A Second Snippet'
 description: 'Page views over a given range.'
 logo: 'google-analytics.png'
-slug: "second-snippet"
-author: "Sveltekit Blogger"
-date: "2021-08-01"
-banner: "/images/snippets/second-snippet/banner.jpg"
+slug: 'second-snippet'
+author: 'Vincent Hirtz'
+date: '2021-08-01'
+banner: '/images/snippets/second-snippet/banner.jpg'
 published: true
-tags: ["snippets", "google", "Programming"]
+tags: ['snippets', 'google', 'Programming']
 ---
 
-
 ```ts
-
 import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
-  imports: [
-    ReactiveFormsModule
-  ],
+	imports: [ReactiveFormsModule],
 })
-export class AppModule { }
+export class AppModule {}
 ```
 
 ## Usage
 
 ```ts
-
 import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
 
 @Component({
-  selector: 'app-name-editor',
-  templateUrl: './name-editor.component.html',
-  styleUrls: ['./name-editor.component.css']
+	selector: 'app-name-editor',
+	templateUrl: './name-editor.component.html',
+	styleUrls: ['./name-editor.component.css'],
 })
 export class NameEditorComponent {
-  name = new FormControl('');
+	name = new FormControl('');
 }
 ```
 

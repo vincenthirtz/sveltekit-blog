@@ -45,14 +45,14 @@
 				>
 					<img
 						class="h-10 md:h-14 w-auto"
-						alt="Sveltekit Blogger"
+						alt="Vincent Hirtz"
 						loading="eager"
 						decoding="async"
 						width="3.5rem"
 						height="3.5rem"
 						src="{logoImage}"
 					/>
-					<span class="ml-3 text-lg"> Sveltekit Blogger </span>
+					<span class="ml-3 text-lg"> Vincent Hirtz </span>
 				</a>
 			</div>
 		{/if}

@@ -28,8 +28,8 @@
 	 * @type {IMetaTagProperties}
 	 */
 	const metaData: Partial<IMetaTagProperties> = {
-		title: 'Snippets | Sveltekit Blog',
-		description: 'Snippets page of Sveltekit blog starter project',
+		title: 'Snippets | Vincent Hirtz',
+		description: 'Snippets page of Vincent Hirtz starter project',
 		url: '/snippets',
 		keywords: ['sveltekit', 'sveltekit starter', 'sveltekit snippets'],
 		searchUrl: '/snippets',

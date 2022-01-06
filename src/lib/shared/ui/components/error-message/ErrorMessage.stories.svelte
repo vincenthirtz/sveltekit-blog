@@ -10,7 +10,7 @@
 <Template let:args>
 	<ErrorMessage {...args}>
 		<span>
-			<div> Sveltekit Blogger </div>
+			<div> Vincent Hirtz </div>
 			<div> SSE </div>
 		</span>
 	</ErrorMessage>

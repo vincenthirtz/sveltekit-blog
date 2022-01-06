@@ -72,11 +72,11 @@
 	<meta name="googlebot" content="{metaData.robots}" />
 
 	{#if isProd}
-		<link rel="alternate" type="application/rss+xml" title="Sveltekit Blog - RSS Feed" href="/rss.xml" />
+		<link rel="alternate" type="application/rss+xml" title="Vincent Hirtz - RSS Feed" href="/rss.xml" />
 	{/if}
 
 	{#if isProd}
-		<link rel="sitemap" type="application/xml" title="Sveltekit Blog - Sitemap" href="/sitemap.xml" />
+		<link rel="sitemap" type="application/xml" title="Vincent Hirtz - Sitemap" href="/sitemap.xml" />
 	{/if}
 
 	{#if metaData && metaData.title}

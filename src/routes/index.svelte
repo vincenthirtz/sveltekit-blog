@@ -42,7 +42,7 @@
 	 * @type {IMetaTagProperties}
 	 */
 	const metaData: Partial<IMetaTagProperties> = {
-		title: `Sveltekit Blogger | Sveltekit`,
+		title: `Vincent Hirtz | Dev' front `,
 		description:
 			'Sveltekit starter project created with sveltekit, typescript, tailwindcss, postcss, husky, and storybook. The project has the structure set up for the scaleable project. (sveltekit, typescript, tailwindcss, postcss, husky, Storybook).',
 		keywords: ['sveltekit', 'sveltekit starter', 'sveltekit starter home'],
@@ -57,9 +57,9 @@
 			icon: '',
 		},
 		{
-			title: 'Sveltekit Blog',
+			title: 'Vincent Hirtz',
 			description:
-				'Sveltekit Blog starter project created with sveltekit, typescript, tailwindcss, postcss, husky, and storybook. The project has the structure set up for the scaleable web application and blog.',
+				'Vincent Hirtz starter project created with sveltekit, typescript, tailwindcss, postcss, husky, and storybook. The project has the structure set up for the scaleable web application and blog.',
 			slug: 'https://github.com/navneetsharmaui/sveltekit-blog',
 			icon: '',
 		},
@@ -77,19 +77,17 @@
 
 <!-- Start: Home Page container -->
 <div class="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
-	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
-		Hey, I’m Sveltekit Blogger
-	</h1>
+	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white"> Bonjour, </h1>
 	<p class="prose text-gray-600 dark:text-gray-400 mb-16">
-		I'm a developer and creator. I work as the Software Developer at XYZ. You’ve found my personal slice of the
-		internet –&nbsp; while you're here
+		Je suis un développeur front chez <a href="https://www.sapiendo-retraite.fr/">Sapiendo</a> et je passe mon temps
+		à découvrir de nouvelles technologies pour l'appliquer dans mon travail au quoitidien.
 		<a sveltekit:prefetch href="/about" aria-label="about me" class="text-blue-700 hover:text-blue-800 transition"
-			>learn more about me.</a
+			>En savoir plus sur moi.</a
 		>
 	</p>
 
 	<!-- Start: Popular Blog Section -->
-	<h2 class="font-bold text-2xl md:text-4xl tracking-tight mb-4 text-black dark:text-white"> Most Recent </h2>
+	<h2 class="font-bold text-2xl md:text-4xl tracking-tight mb-4 text-black dark:text-white">Derniers articles</h2>
 
 	{#if blogs.length > 0}
 		{#each blogs as blog, index (blog.slug)}
@@ -99,7 +97,7 @@
 	<!-- End: Popular Blog Section -->
 
 	<!-- Start: Top Projects -->
-	<h2 class="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white"> Top Projects </h2>
+	<h2 class="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">Derniers projets</h2>
 
 	{#if projects.length > 0}
 		{#each projects as project}

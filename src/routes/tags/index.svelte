@@ -39,8 +39,8 @@
 	$: tags = [...new Set(listWithDuplicatetags)];
 
 	$: metaData = {
-		title: 'Tags | Sveltekit Blog',
-		description: 'Tags page of Sveltekit blog starter project',
+		title: 'Tags | Vincent Hirtz',
+		description: 'Tags page of Vincent Hirtz starter project',
 		url: '/tags',
 		keywords: ['sveltekit', 'sveltekit starter', 'sveltekit starter tags', 'svelte starter tags', ...tags],
 		searchUrl: '/tags',

@@ -40,15 +40,15 @@
 	const navLinks: IHeaderNavLink[] = [
 		{
 			path: '/',
-			label: 'Home',
+			label: 'Accueil',
 		},
 		{
 			path: '/about',
-			label: 'About',
+			label: 'A propos',
 		},
 		{
-			path: '/projects',
-			label: 'Projects',
+			path: '/projets',
+			label: 'Projets',
 		},
 		{
 			path: '/blog',
@@ -74,7 +74,7 @@
 		on:toggleTheme="{(e) => toggleThemeMode(e)}"
 		navLinks="{navLinks}"
 		logoImage="{'/images/author/sveltekit-blogger.svg'}"
-		title="{'Sveltekit Blogger'}"
+		title="{'Vincent Hirtz'}"
 		useThemeModeButton="{true}"
 		useTitleAndLogo="{true}"
 	/>

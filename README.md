@@ -4,8 +4,8 @@
 
 ![sveltekit](https://user-images.githubusercontent.com/11630812/114088279-7cd7be80-98d2-11eb-883c-66c3bf48f293.png)
 
-Sveltekit Blog project created with Sveltekit, Typescript, Tailwindcss, Postcss, SCSS, Husky, ESLint, Prettier, Storybook, and MDSVEX.
-The project has the ***SSR (Server Side Rendering)*** setup. These template is easy to configure and built upon as it has scalable structure.
+Vincent Hirtz project created with Sveltekit, Typescript, Tailwindcss, Postcss, SCSS, Husky, ESLint, Prettier, Storybook, and MDSVEX.
+The project has the **_SSR (Server Side Rendering)_** setup. These template is easy to configure and built upon as it has scalable structure.
 
 ## :100: :fire: Project LightHouse Report
 
@@ -13,23 +13,23 @@ The project has the ***SSR (Server Side Rendering)*** setup. These template is e
 
 ## :paperclip: Menu
 
-- :bulb: [Features](#bulb-features)
-- :hammer: [Project Setup](#hammer-project-setup)
-- :bug: [Known Bugs](https://github.com/navneetsharmaui/sveltekit-blog/issues)
+-   :bulb: [Features](#bulb-features)
+-   :hammer: [Project Setup](#hammer-project-setup)
+-   :bug: [Known Bugs](https://github.com/navneetsharmaui/sveltekit-blog/issues)
 
 ## :bulb: Features
 
-- [:heavy_check_mark:] Server side rendering built with ***SEO*** in mind.
-- [:heavy_check_mark:] SSR + Blog Setup.
-- [:heavy_check_mark:] Tailwindcss + Postcss + SCSS Syntax Support in Postcss.
-- [:heavy_check_mark:] Global Style and Variable preconfigured for Postcss.
-- [:heavy_check_mark:] StorybookJS preconfigured (with postcss support).
-- [:heavy_check_mark:] Browser sync, auto refresh, auto reload.
-- [:heavy_check_mark:] 100% on Google Speedpage and 100% Lighthouse report.
-- [:heavy_check_mark:] Friendly and Scalable boilerplate.
-- [:heavy_check_mark:] Typescript + TSPaths (absolute for imports in component) preconfigured.
-- [:heavy_check_mark:] Prettiers, ESLint, and Husky preconfigured.
-- [:heavy_check_mark:] Github and Vscode dotfiles preconfigured.
+-   [:heavy_check_mark:] Server side rendering built with **_SEO_** in mind.
+-   [:heavy_check_mark:] SSR + Blog Setup.
+-   [:heavy_check_mark:] Tailwindcss + Postcss + SCSS Syntax Support in Postcss.
+-   [:heavy_check_mark:] Global Style and Variable preconfigured for Postcss.
+-   [:heavy_check_mark:] StorybookJS preconfigured (with postcss support).
+-   [:heavy_check_mark:] Browser sync, auto refresh, auto reload.
+-   [:heavy_check_mark:] 100% on Google Speedpage and 100% Lighthouse report.
+-   [:heavy_check_mark:] Friendly and Scalable boilerplate.
+-   [:heavy_check_mark:] Typescript + TSPaths (absolute for imports in component) preconfigured.
+-   [:heavy_check_mark:] Prettiers, ESLint, and Husky preconfigured.
+-   [:heavy_check_mark:] Github and Vscode dotfiles preconfigured.
 
 ## :hammer: Project Setup
 
@@ -41,6 +41,6 @@ The project has the ***SSR (Server Side Rendering)*** setup. These template is e
 
 ## 💫 License
 
-- Code and Contributions have **MIT License**
+-   Code and Contributions have **MIT License**
 
-*Copyright (c) 2021 [Navneet Sharma](http://github.com/navneetsharmaui) ([@asnavneetsharma](https://twitter.com/asnavneetsharma))*
+_Copyright (c) 2021 [Navneet Sharma](http://github.com/navneetsharmaui) ([@asnavneetsharma](https://twitter.com/asnavneetsharma))_

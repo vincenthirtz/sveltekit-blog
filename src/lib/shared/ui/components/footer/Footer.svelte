@@ -9,29 +9,31 @@
 	<slot />
 	<div class="w-full max-w-2xl grid grid-cols-1 gap-4 pb-16 sm:grid-cols-3">
 		<div class="flex flex-col space-y-4">
-			<a sveltekit:prefetch href="/" class="{linkClass}" aria-label="{'Footer home link'}">Home</a>
-			<a sveltekit:prefetch href="/about" class="{linkClass}" aria-label="{'Footer about link'}"> About </a>
-			<a sveltekit:prefetch href="/blog" class="{linkClass}" aria-label="{'Footer about link'}"> Blog </a>
-			<a sveltekit:prefetch href="/projects" class="{linkClass}" aria-label="{'Footer about link'}"> Projects </a>
+			<a sveltekit:prefetch href="/" class="{linkClass}" aria-label="{'Footer home link'}">Accueil</a>
+			<a sveltekit:prefetch href="/about" class="{linkClass}" aria-label="{'Footer about link'}"
+				>A propos de moi</a
+			>
+			<a sveltekit:prefetch href="/blog" class="{linkClass}" aria-label="{'Footer about link'}">Blog</a>
+			<a sveltekit:prefetch href="/projets" class="{linkClass}" aria-label="{'Footer about link'}">Projets</a>
 		</div>
 		<div class="flex flex-col space-y-4">
 			<ExternalLink
-				href="https://www.linkedin.com/in/asnavneetsharma/"
+				href="https://www.linkedin.com/in/hirtzvincent/"
 				cssClasses="{linkClass}"
 				ariaLabel="{'Footer LinkedIn link'}">LinkedIn</ExternalLink
 			>
 			<ExternalLink
-				href="https://github.com/navneetsharmaui"
+				href="https://github.com/vincenthirtz"
 				cssClasses="{linkClass}"
 				ariaLabel="{'Footer GitHub link'}">GitHub</ExternalLink
 			>
 			<ExternalLink
-				href="https://twitter.com/asnavneetsharma"
+				href="https://twitter.com/alukaard76"
 				cssClasses="{linkClass}"
 				ariaLabel="{'Footer Twitter link'}">Twitter</ExternalLink
 			>
 			<ExternalLink
-				href="https://www.instagram.com/asnavneetsharma/"
+				href="https://www.instagram.com/madebynormandy"
 				cssClasses="{linkClass}"
 				ariaLabel="{'Footer Instagram link'}">Instagram</ExternalLink
 			>

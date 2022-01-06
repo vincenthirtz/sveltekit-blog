@@ -28,7 +28,7 @@
 			<div class="h-14 w-14 ml-2 mr-4 flex-shrink-0">
 				<span class="sr-only">Svelte</span>
 				<img
-					alt="{'Sveltekit Blogger'}"
+					alt="{'Vincent Hirtz'}"
 					src="{'/images/author/sveltekit-blogger.svg'}"
 					width="1.75rem"
 					height="1.75rem"

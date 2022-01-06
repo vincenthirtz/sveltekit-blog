@@ -13,8 +13,8 @@
 	 * @type {IMetaTagProperties}
 	 */
 	const metaData: Partial<IMetaTagProperties> = {
-		title: 'About | Sveltekit Blog',
-		description: 'About page of Sveltekit blog starter project',
+		title: 'About | Vincent Hirtz',
+		description: 'About page of Vincent Hirtz starter project',
 		url: '/about',
 		keywords: ['sveltekit', 'sveltekit starter', 'sveltekit starter about'],
 		searchUrl: '/about',
@@ -31,11 +31,11 @@
 	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white"> About Me </h1>
 	<div class="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
 		<p>
-			Hey, I'm Sveltekit Blogger. I'm a Software Developer, writer and creator of
+			Hey, I'm Vincent Hirtz. I'm a Software Developer, writer and creator of
 			<ExternalLink href="https://github.com/navneetsharmaui/sveltkit-starter"
 				>Sveltekit Starter Project</ExternalLink
 			> and <ExternalLink href="https://github.com/navneetsharmaui/sveltkit-starter"
-				>Sveltekit Blog Project</ExternalLink
+				>Vincent Hirtz Project</ExternalLink
 			>
 		</p>
 		<p>
