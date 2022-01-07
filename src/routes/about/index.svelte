@@ -34,7 +34,7 @@
 		<p>
 			<iframe
 				src="https://www.linkedin.com/embed/feed/update/urn:li:share:6885190097365454848"
-				style="height: 41rem;"
+				style="height: 38rem; width: 900px;"
 				height="900"
 				width="504"
 				frameborder="0"
