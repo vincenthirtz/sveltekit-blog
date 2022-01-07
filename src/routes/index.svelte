@@ -32,8 +32,7 @@
 	// Models
 	import type { IMetaTagProperties } from '$models/interfaces/imeta-tag-properties.interface';
 	import type { IBlog } from '$models/interfaces/iblog.interface';
-	import { WebPlayback } from 'svelte-spotify-web-playback';
-	const client_id = '4bb077b4e36f4d359b5e4f8a5409da95';
+	import NowPlaying from '$components/now-playing/NowPlaying.svelte';
 	// End: Local Imports
 
 	// Exports
@@ -95,6 +94,6 @@
 		>En direct de Spotify</h2
 	>
 
-	<WebPlayback client_id="{client_id}" />
+	<NowPlaying />
 </div>
 <!-- End: Home Page container -->

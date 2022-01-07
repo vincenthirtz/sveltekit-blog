@@ -25,7 +25,6 @@
 	import Header from '$ui/components/header/Header.svelte';
 	import Footer from '$ui/components/footer/Footer.svelte';
 	import RouteTransition from '$ui/components/route-transition/RouteTransition.svelte';
-	import NowPlaying from '$components/now-playing/NowPlaying.svelte';
 
 	// Models
 	import type { IHeaderNavLink } from '$models/interfaces/iheader-nav-link.interface';
