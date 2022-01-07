@@ -57,8 +57,9 @@
 <div class="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
 	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white"> Tags </h1>
 	<p class="text-gray-600 dark:text-gray-400 mb-4">
-		There are {tags.length} different tags to which the blogs belongs to. You can use the following tags to get the blogs/articles
-		which belongs to them. These tags will help you find the articles easily if you know which tag they belongs to.
+		Il y a {tags.length} différents tags auquel appartiennent les articles du blog. Vous pouvez utiliser les balises
+		suivantes pour obtenir les blogs/articles qui leur appartient. Ces balises vous aideront à trouver les articles facilement
+		si vous savez à quelle balise ils appartiennent.
 	</p>
 	<div class="flex flex-row flex-wrap w-full mt-4 items-center">
 		{#each tags as tag, index (tag)}

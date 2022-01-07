@@ -57,19 +57,19 @@
 <div class="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
 	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white"> Blog </h1>
 	<p class="text-gray-600 dark:text-gray-400 mb-4">
-		There are {blogs.length} articles on this site. Use
+		Il y a {blogs.length} articles sur ce site. Utilisez les
 		<a sveltekit:prefetch href="/tags" aria-label="tags" class="text-blue-500 hover:text-blue-700 transition"
 			>tags</a
 		>
-		to get articles based on different tags. Use the search below to filter by title.
+		pour trouver d'autres articles. Utilisez la recherche ci-dessous pour filtrer par titre.
 	</p>
 	<!-- Start: Search blogs -->
 	<div class="relative w-full mb-4">
 		<input
 			bind:value="{searchValue}"
-			aria-label="Search articles"
+			aria-label="Recherche articles"
 			type="text"
-			placeholder="Search articles"
+			placeholder="Recherche articles"
 			class="px-4 py-2 border border-gray-300 dark:border-gray-900 focus:ring-blue-500 focus:border-blue-500 block w-full rounded-md bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
 		/>
 		<svg

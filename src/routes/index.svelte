@@ -28,11 +28,12 @@
 	import HeadTags from '$components/head-tags/HeadTags.svelte';
 	import BlogPost from '$components/blog-post/BlogPost.svelte';
 	import ProjectCard from '$components/project-card/ProjectCard.svelte';
-
+	import { projects } from '$utils/projets';
 	// Models
 	import type { IMetaTagProperties } from '$models/interfaces/imeta-tag-properties.interface';
-	import type { IProjectCard } from '$models/interfaces/iproject-card.interface';
 	import type { IBlog } from '$models/interfaces/iblog.interface';
+	import { WebPlayback } from 'svelte-spotify-web-playback';
+	const client_id = '4bb077b4e36f4d359b5e4f8a5409da95';
 	// End: Local Imports
 
 	// Exports
@@ -48,22 +49,6 @@
 		keywords: ['sveltekit', 'sveltekit starter', 'sveltekit starter home'],
 	};
 
-	const projects: IProjectCard[] = [
-		{
-			title: 'Sveltekit Starter',
-			description:
-				'Sveltekit starter project created with sveltekit, typescript, tailwindcss, postcss, husky, and storybook. The project has the structure set up for the scaleable web application.',
-			slug: 'https://github.com/navneetsharmaui/sveltekit-starter',
-			icon: '',
-		},
-		{
-			title: 'Vincent Hirtz',
-			description:
-				'Vincent Hirtz starter project created with sveltekit, typescript, tailwindcss, postcss, husky, and storybook. The project has the structure set up for the scaleable web application and blog.',
-			slug: 'https://github.com/navneetsharmaui/sveltekit-blog',
-			icon: '',
-		},
-	];
 	// End: Local component properties
 
 	// Start: Local component methods
@@ -105,5 +90,11 @@
 		{/each}
 	{/if}
 	<!-- End: Top Projects -->
+
+	<h2 class="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white"
+		>En direct de Spotify</h2
+	>
+
+	<WebPlayback client_id="{client_id}" />
 </div>
 <!-- End: Home Page container -->

@@ -39,10 +39,14 @@
 			>
 		</p>
 		<p>
-			The template has all the route and sample pages setup for you which you can change and customize further.
-			All the pages are by default loaded from the different JS file and is fetched using prefetch when use hover
-			over the links, which reduces the load time when user eventually decides to click on the link and load the
-			route
+			<iframe
+				src="https://www.linkedin.com/embed/feed/update/urn:li:share:6885190097365454848"
+				style="height: 41rem;"
+				height="900"
+				width="504"
+				frameborder="0"
+				allowfullscreen=""
+				title="Post intégré"></iframe>
 		</p>
 	</div>
 </div>
