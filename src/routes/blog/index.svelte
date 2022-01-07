@@ -102,7 +102,7 @@
 	<h2 class="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">Tous les articles</h2
 	>
 	{#if filteredBlogPosts.length === 0}
-		<p class="text-gray-600 dark:text-gray-400 mb-4"> No posts found. </p>
+		<p class="text-gray-600 dark:text-gray-400 mb-4">Pas d'articles.</p>
 	{:else}
 		{#each filteredBlogPosts as blog, index (blog.slug)}
 			<BlogPost blog="{blog}" />
