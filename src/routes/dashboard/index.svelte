@@ -46,13 +46,15 @@
 	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white"> Dashboard </h1>
 	<div class="mb-8">
 		<p class="text-gray-600 dark:text-gray-400 mb-4">
-			This the dashboard view for my portfolio to track the metric related to the various platforms I use and are
-			availabe for the public use. Right now it just tracks GitHub metrics.
+			Il s'agit de la vue du tableau de bord de mon portefeuille pour suivre les métriques liées aux différentes
+			plates-formes que j'utilise et qui sont disponibles pour un usage public. Pour le moment, il ne fait que
+			suivre les métriques Spotify.
 		</p>
 	</div>
-	<h2 class="font-bold text-3xl tracking-tight mb-4 mt-16 text-black dark:text-white"> Top Tracks </h2>
+	<h2 class="font-bold text-3xl tracking-tight mb-4 mt-16 text-black dark:text-white"> Top 10 Spotify </h2>
 	<p class="text-gray-600 dark:text-gray-400 mb-4">
-		Curious what I'm currently jamming to? Here's my top tracks on Spotify updated daily.
+		Curieux de savoir sur quoi je suis actuellement en train d'écouter sur Spotify ? Voici mes meilleurs morceaux
+		sur Spotify mis à jour quotidiennement.
 	</p>
 	<TopTracks topTracks="{topTracks}" />
 </div>
