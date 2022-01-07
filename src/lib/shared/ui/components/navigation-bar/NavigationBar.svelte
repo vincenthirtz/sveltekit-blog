@@ -33,7 +33,7 @@
 	};
 </script>
 
-<header class="relative flex text-gray-900 bg-yellow-50 dark:bg-black bg-opacity-60 dark:text-gray-100 w-full">
+<header class="relative flex text-gray-900 bg-white dark:bg-black bg-opacity-60 dark:text-gray-100 w-full">
 	<nav class="flex flex-wrap items-center justify-between w-full max-w-4xl p-6 mx-auto">
 		{#if useTitleAndLogo}
 			<div class="w-auto p-1 text-gray-900 dark:text-gray-100 font-bold">
@@ -76,8 +76,8 @@
 			aria-label="Toggle Dark Mode"
 			type="button"
 			class="{useTitleAndLogo
-				? 'sticky-theme-mode-button w-8 h-8 bg-yellow-50 rounded-full dark:bg-gray-800 filter shadow hover:shadow-md dark:shadow-dark dark:hover:shadow-dark-lg hover:border-2 hover:border-gray-500 dark:hover:border-gray-300 z-10'
-				: 'w-8 h-8 bg-yellow-50 rounded-full dark:bg-gray-800 filter shadow hover:shadow-md dark:shadow-dark dark:hover:shadow-dark-lg hover:border-2 hover:border-gray-500 dark:hover:border-gray-300 z-10'}"
+				? 'sticky-theme-mode-button w-8 h-8 bg-white rounded-full dark:bg-gray-800 filter shadow hover:shadow-md dark:shadow-dark dark:hover:shadow-dark-lg hover:border-2 hover:border-gray-500 dark:hover:border-gray-300 z-10'
+				: 'w-8 h-8 bg-white rounded-full dark:bg-gray-800 filter shadow hover:shadow-md dark:shadow-dark dark:hover:shadow-dark-lg hover:border-2 hover:border-gray-500 dark:hover:border-gray-300 z-10'}"
 		>
 			{#if dark}
 				<Icon data="{faSun}" class="{'h-3 w-3 text-xs text-gray-700 dark:text-gray-100'}" scale="{1.5}" />
