@@ -188,5 +188,8 @@
 	"type": "module",
 	"engines": {
 		"node": ">= 14.16.1"
+	},
+	"dependencies": {
+		"svelte-tradingview-widget": "^2.3.0"
 	}
 }

@@ -29,6 +29,8 @@
 	import BlogPost from '$components/blog-post/BlogPost.svelte';
 	import ProjectCard from '$components/project-card/ProjectCard.svelte';
 	import { projects } from '$utils/projets';
+	import TradingViewWidget from 'svelte-tradingview-widget';
+
 	// Models
 	import type { IMetaTagProperties } from '$models/interfaces/imeta-tag-properties.interface';
 	import type { IBlog } from '$models/interfaces/iblog.interface';
@@ -47,12 +49,7 @@
 			'Sveltekit starter project created with sveltekit, typescript, tailwindcss, postcss, husky, and storybook. The project has the structure set up for the scaleable project. (sveltekit, typescript, tailwindcss, postcss, husky, Storybook).',
 		keywords: ['sveltekit', 'sveltekit starter', 'sveltekit starter home'],
 	};
-
-	// End: Local component properties
-
-	// Start: Local component methods
-
-	// End: Local component methods
+	const options = { symbol: 'BINANCE:BTCUSDT', theme: 'dark', locale: 'fr', width: 600, height: 500 };
 </script>
 
 <!-- Start: Header Tag -->
@@ -95,5 +92,9 @@
 	>
 
 	<NowPlaying />
+
+	<h2 class="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">En direct BTC</h2>
+
+	<TradingViewWidget options="{options}" />
 </div>
 <!-- End: Home Page container -->
